@@ -30,7 +30,7 @@ h1{
     color: blanchedalmond;
 }
 .box input[type = "text"]{ 
-    border-color: rgb(216, 139, 23);
+    border-color:  rgb(218, 123, 0);
     background: none;
     display: flexbox;
     margin: 20px auto;
@@ -48,7 +48,7 @@ h1{
     border-color: blanchedalmond;
 }
 .box input[type ="submit"]{
-    border-color:   rgb(216, 139, 23);
+    border-color:    rgb(218, 123, 0);
     background: none;
     display: flexbox;
     margin: 20px auto;
