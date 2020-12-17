@@ -1,0 +1,67 @@
+body{
+    margin: 0; 
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url("a.jpg") ;
+    background : #223b5f;
+}
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center ;
+}
+h1{
+    color: blanchedalmond;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 9px;
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box h3{
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blanchedalmond;
+}
+.box input[type = "text"]{ 
+    border-color:  rgb(57, 75, 158);
+    background: none;
+    display: flexbox;
+    margin: 20px auto;
+    text-align: center;
+    padding: 0.3cm 0.3cm;
+    width: 200px;
+    outline: none;
+    color: blanchedalmond;
+    border-radius: 24px;
+    transition: 0.25s;
+    margin-left:30px;
+}
+.box input[type = "text"]:focus{
+    border-right-width: 28px;
+    border-color: blanchedalmond;
+    text-transform:uppercase ;
+}
+.box input[type ="submit"]{
+    border-color:  rgb(57, 75, 158);
+    background: none;
+    display: flexbox;
+    margin: 20px auto;
+    text-align: center;
+    padding: 0.3cm 0.3cm;
+    width: 200px;
+    outline: none;
+    color: blanchedalmond;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    margin-left: 0.8cm;
+}
+.box input[type ="submit"]:hover{
+    border-color: blanchedalmond;
+}
