@@ -45,7 +45,6 @@ h1{
 .box input[type = "text"]:focus{
     border-right-width: 28px;
     border-color: blanchedalmond;
-    text-transform:uppercase ;
 }
 .box input[type ="submit"]{
     border-color:  rgb(57, 75, 158);
